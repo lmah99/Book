@@ -1,0 +1,161 @@
+/*
+   The Book is Better style sheet
+   Filename:  main.css
+   
+   Author:    Leslie Holdegraver
+   Date:      July 28, 2020
+   Final Project - Design Your Own Website
+   
+   Supporting files:
+   */
+   
+/* reset styles */
+
+html {
+	font-size: 12px;
+}
+
+
+article, aside, body, div, footer, header, h1, h2, h3, img, nav, p, ul, table, tbody, td, tfoot, th, thead, tr {
+	border: 0;
+	padding:0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: filled-circle;
+	margin-left: 10em;
+	font-size: 12px;
+	color: #0B0B3B;
+}
+
+/* body and page container */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+	max-width: 864px;
+	margin: 0 auto;
+	padding: 1%;
+	position: relative;
+	border: 3px #0B0B3B;
+
+}
+
+p {
+	font-size: 12px;
+}
+
+/* headings */
+header {
+	border-top: 3px #0B0B3B;
+	border-bottom: 3px #0B0B3B;
+	padding: 15px;
+	background-color: #0B0B3B;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+
+   h1 {
+      background-color: #0B0B3B;
+   }
+
+
+ 
+   h2, p {
+	   text-align: left;
+	   background-color: white;
+	   color: #0B0B3B;
+	   font-size: 18px;
+	   padding: 0.4em;
+   }
+   
+/* main content */
+article {
+	padding: 2%;
+	width: 75%;
+	margin-left: 20em;
+}
+td, th {
+	border: 1px solid black;
+	font-size: 1.3em;
+}
+iframe {
+	width: 560;
+	height: 315;
+}
+
+
+/* site navigation */
+nav.sitenavigation {
+	width: 20%;
+	padding: 2%;
+	float: left;
+	background-color: #D8D8D8;
+}
+nav.sitenavigation p {
+	margin-bottom: 2.5em;
+    font-size: 18px;
+	background-color: #D8D8D8;
+}
+nav.sitenavigation a:link {
+	color: #0B0B3B;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav.sitenavigation a:visited {
+	color: #FF4000;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+	text-shadow: 0 0 5px #082008;
+}
+nav.sitenavigation a:active {
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+
+/* footer section */
+   footer .contact{
+	   padding: 1em;
+	   clear: both;
+	   background-color: #0B0B3B;
+	   text-align: center;
+	   color: linen;
+   }
+
+/* fieldset styles */
+fieldset {
+	border: 2px solid black;
+	padding: 2%;
+	margin-bottom: 0.8em;
+}
+
+legend {
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+
+/* print styles */
+@media print {
+	article, aside, body, footer, header {
+		color: black;
+		background-color: white;
+	}
+	body {
+		max-width: 100%;
+	}
+	}
+	
+@page {
+	margin: 1in;
+}
+   
+
+	  
